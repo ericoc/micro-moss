@@ -98,18 +98,31 @@
                 <i class="bi bi-arrow-up-circle-fill"></i>
             </button>
         </main>
-        <footer class="container-fluid border-top border-success p-3 row">
-            <span class="text-start col h4" id="thanks">
-                <i class="bi bi-balloon-heart text-danger"></i>
-                <span class="fw-bold">Thank you</span> to the <a class="fst-italic" href="https://www.nano.upenn.edu/resources/nanoscale-characterization/" target="_blank" title="Nanoscale Characterization Facility <https://www.nano.upenn.edu/resources/nanoscale-characterization/>">Nanoscale Characterization Facility</a> (NCF)
-                at the <a class="fst-italic" href="https://www.nano.upenn.edu/" target="_blank" title="Singh Center for Nanotechnology <https://www.nano.upenn.edu/>">Singh Center for Nanotechnology</a>!
-            </span>
-            <span class="text-end col" id="source" title="View Source: <https://github.com/ericoc/micro-moss>">
-                <a class="font-monospace icon-link icon-link-hover" href="https://github.com/ericoc/micro-moss" title="View source of this page <https://github.com/ericoc/micro-moss>">
-                    <i class="bi bi-code-slash"></i>
-                    https://github.com/ericoc/micro-moss
+        <footer class="border-top border-success container-fluid row p-3">
+            <div class="col h6 text-start">
+                <a class="icon-link icon-link-hover" href="https://www.nano.upenn.edu/resources/nanoscale-characterization/" id="ncf" target="_blank" title="Nanoscale Characterization Facility <https://www.nano.upenn.edu/resources/nanoscale-characterization/>">
+                    <svg class="bi text-danger" aria-hidden="true">
+                        <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#balloon-heart"></use>
+                    </svg>
+                    <i>Nanoscale Characterization Facility</i>
                 </a>
-            </span>
+            </div>
+            <div class="col h6 text-center">
+                <a class="icon-link icon-link-hover" href="https://www.seas.upenn.edu/~ericoc/microscopic-imgs/" id="see-more" target="_blank" title="See more microscopic images? <https://www.seas.upenn.edu/~ericoc/microscopic-imgs/>">
+                    <svg class="bi text-info" aria-hidden="true">
+                        <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#eye"></use>
+                    </svg>
+                    <i>See more small stuff?</i>
+                </a>
+            </div>
+            <div class="col h6 text-end">
+                <a class="icon-link icon-link-hover" href="https://www.nano.upenn.edu/" id="singh" target="_blank" title="Singh Center for Nanotechnology <https://www.nano.upenn.edu/>">
+                    <svg class="bi text-success" aria-hidden="true">
+                        <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#building"></use>
+                    </svg>
+                    <i>Singh Center for Nanotechnology</i>
+                </a>
+            </div>
         </footer>
         <script>
             let goUpButton = document.getElementById("btn-back-to-top");
